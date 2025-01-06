@@ -1,0 +1,30 @@
+/* Navbar Fixed at the Top */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Pastikan lebar navbar mencakup seluruh layar */
+    z-index: 10; /* Memastikan navbar tetap di atas elemen lainnya */
+}
+
+
+h1 {
+    margin-bottom: 15px; /* Kurangi jarak bawah */
+  }
+
+
+  p.fw-bold {
+    margin-top: 5px; /* Mengurangi jarak atas */
+    margin-bottom: 3px; /* Mengurangi jarak bawah */
+    font-weight: bold; /* Memastikan teks tebal */
+}
+
+img {
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

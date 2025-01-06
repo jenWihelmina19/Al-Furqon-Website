@@ -1,0 +1,129 @@
+/* Navbar Fixed at the Top */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Pastikan lebar navbar mencakup seluruh layar */
+    z-index: 10; /* Memastikan navbar tetap di atas elemen lainnya */
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.main color {
+    background-color: aliceblue !important;
+}
+
+#search-input {
+    font-size: 14px;
+    border-radius: 25px;
+    border-width: 1px;
+}
+  
+.destination {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.destination img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Atur tinggi gambar agar seragam */
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Crop gambar agar sesuai dengan dimensi */
+}
+
+/* Samakan tinggi semua card */
+.card {
+    height: 100%;
+}
+
+/* Ratakan konten tombol di bagian bawah */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Tambahan styling opsional */
+body {
+    margin-top: 80px; /* Memberi jarak karena navbar fixed-top */
+    background-color: #f9f9f9; /* Warna latar belakang */
+}
+
+/*top destination */
+    .card {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .card.clicked {
+        transform: scale(1.1) rotate(3deg);
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+    }
+
+/*  footer support */
+footer {
+    margin-top: 3rem;
+    background-color: #f8f9fa; /* Warna latar belakang sesuai dengan kelas Bootstrap bg-light */
+    padding: 8rem; /* Padding atas dan bawah */
+    font-size: 0.9rem; /* Ukuran teks sedikit lebih kecil */
+    text-align: center;
+}
+
+footer h5 {
+    font-weight: bold; /* Teks heading menjadi tebal */
+    margin-bottom: 1rem; /* Jarak bawah heading */
+    color: #333; /* Warna teks heading */
+}
+
+footer ul {
+    padding: 0; /* Menghapus padding bawaan */
+    margin: 0; /* Menghapus margin bawaan */
+    list-style: none; /* Menghapus bullet point */
+}
+
+footer ul li {
+    margin-bottom: 0.5rem; /* Jarak antar item */
+}
+
+footer ul li a {
+    text-decoration: none; /* Menghapus garis bawah link */
+    color: #007bff; /* Warna link (biru) */
+    transition: color 0.3s ease; /* Efek transisi saat hover */
+}
+
+footer ul li a:hover {
+    color: #0056b3; /* Warna link saat hover */
+    text-decoration: underline; /* Tambahkan garis bawah saat hover */
+}
+
+footer .col {
+    margin-bottom: 1rem; /* Jarak antar kolom pada perangkat kecil */
+}
+
+@media (min-width: 768px) {
+    footer .col {
+        margin-bottom: 0; /* Menghapus margin pada perangkat lebih besar */
+    }
+}
+

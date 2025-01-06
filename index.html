@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel ="stylesheet" href="index.css">
+    <title>Al-Furqon Travel Homepage</title>
+</head>
+<body>
+
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">✈️</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#destination">Destinasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="booking.html">Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#faq">F A Q</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="informasi.html">Informasi</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+<!--search box-->
+<section id="search-box">
+<div class="container-fluid banner d-flex align-items-center" style="height: 100vh;">
+    <div class="container"> 
+        <h1 class="text-light text-center display-5" style="font-weight: bold;">Cari Destinasi</h1>
+        <div class="input-group" style="max-width: 400px; margin: 0 auto;">
+            <input type="text" id="search-input" class="form-control rounded-input" placeholder="🔍   Masukkan destinasi..." style="border-radius: 20px;">
+            <button class="btn btn-primary" type="button" id="send-button" style="border-radius: 20px;">go</button>
+        </div>
+    </div>
+  </div>
+</section>
+
+  <div class="sky-blue-background">
+  </div>
+<!--top destination-->
+<section id="destination">
+<div class="blue-background-section">
+<br>
+<br>
+<div class="container-fluid py-5">
+  <div class="container">
+    <h1 class="text-center">Top Destinations</h1>
+    <br>
+    <div class="row">
+       <!-- Card 1 -->
+       <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card">
+            <img src="bali.jpg" class="card-img-top" alt="Bali">
+            <div class="card-body">
+                <h5 class="card-title">Bali</h5>
+                <p class="card-text">Pulau Dewata yang menawarkan pantai eksotis, budaya unik, dan keindahan alam yang memukau.</p>
+                <a href="bali.html" class="btn btn-primary mt-auto">Lihat Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card">
+            <img src="toraja.jpg" class="card-img-top" alt="Toraja">
+            <div class="card-body">
+                <h5 class="card-title">Toraja</h5>
+                <p class="card-text">Destinasi yang kaya dengan tradisi unik, rumah adat tongkonan, dan pemandangan alam yang menawan.</p>
+                <a href="toraja.html" class="btn btn-primary mt-auto">Lihat Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card">
+            <img src="jogja.jpg" class="card-img-top" alt="Jogja">
+            <div class="card-body">
+                <h5 class="card-title">Jogja</h5>
+                <p class="card-text">Kota budaya dengan ikon seperti Candi Borobudur, Malioboro, dan keramahan lokal yang khas.</p>
+                <a href="jogja.html" class="btn btn-primary mt-auto">Lihat Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<!--div class="blue-background-section"-->
+<section id="faq">
+<div class="container-fluid">
+  <div class="container">
+    <h1 class="text-center">Frequently Asked Questions</h1>
+    <br>
+    <div class="accordion" id="accordionExample">
+      <!-- FAQ 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            FAQ 1: Apa saja destinasi wisata populer di Indonesia?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body d-flex flex-column align-items-center">
+            <div class="d-flex justify-content-center mb-3">
+              <img src="bali2.jpg" alt="Pantai Kuta, Bali" class="img-fluid mx-2" style="max-height: 200px;">
+              <img src="borobudur.jpg" alt="Candi Borobudur, Yogyakarta" class="img-fluid mx-2" style="max-height: 200px;">
+              <img src="komodo.jpg" alt="Pulau Komodo" class="img-fluid mx-2" style="max-height: 200px;">
+            </div>
+            <strong>Beberapa destinasi wisata populer di Indonesia:</strong>
+            Bali (Pantai Kuta, Ubud, Tanah Lot), Yogyakarta (Candi Borobudur, Candi Prambanan), Labuan Bajo (Pulau Komodo), Raja Ampat (keindahan bawah laut), dan Lombok (Pantai Senggigi, Gunung Rinjani).
+          </div>
+        </div>
+      </div>
+      <!-- FAQ 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            FAQ 2: Apa waktu terbaik untuk berkunjung ke Bali?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body d-flex flex-column align-items-center">
+            <div class="d-flex justify-content-center mb-3">
+              <img src="balisore.jpeg" alt="Pantai Bali" class="img-fluid mx-2" style="max-height: 200px;">
+              <img src="vilabali.jpg" alt="Villa di Bali" class="img-fluid mx-2" style="max-height: 200px;">
+              <img src="pantaibatubali.png" alt="Pantai Batu, Bali" class="img-fluid mx-2" style="max-height: 200px;">
+            </div>
+            <strong>Waktu terbaik untuk berkunjung ke Bali:</strong>
+            Musim kemarau (April hingga Oktober) adalah waktu terbaik untuk menikmati pantai dan aktivitas luar ruangan tanpa khawatir hujan.
+          </div>
+        </div>
+      </div>
+      <!-- FAQ 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            FAQ 3: Apa yang harus dibawa saat mendaki Gunung Rinjani?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body d-flex flex-column align-items-center">
+            <div class="d-flex justify-content-center mb-3">
+              <img src="rinjanipuncak.jpg" alt="Puncak Gunung Rinjani" class="img-fluid mx-2" style="max-height: 200px;">
+              <img src="kemahdirinjani.jpg" alt="Camping di Gunung Rinjani" class="img-fluid mx-2" style="max-height: 200px;">
+              <img src="awanrinjani.jpg" alt="Pemandangan Gunung Rinjani" class="img-fluid mx-2" style="max-height: 200px;">
+            </div>
+            <strong>Barang yang sebaiknya dibawa:</strong>
+            Sepatu hiking, jaket hangat, tenda, sleeping bag, makanan ringan, air minum, dan perlengkapan P3K. Jangan lupa membawa peralatan kebersihan pribadi.
+          </div>
+        </div>
+      </div>
+      <!-- FAQ 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            FAQ 4: Apa aktivitas yang bisa dilakukan di Labuan Bajo?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body d-flex flex-column align-items-center">
+            <div class="d-flex justify-content-center mb-3">
+              <img src="bukitslavia.jpg" alt="Bukit Sylvia, Labuan Bajo" class="img-fluid mx-2" style="max-height: 200px;">
+              <img src="pinkbeach.jpeg" alt="Pink Beach, Labuan Bajo" class="img-fluid mx-2" style="max-height: 200px;">
+              <img src="diving.jpg" alt="Diving di Labuan Bajo" class="img-fluid mx-2" style="max-height: 200px;">
+            </div>
+            <strong>Aktivitas seru di Labuan Bajo:</strong>
+            Snorkeling dan diving di Pulau Komodo, trekking di Pulau Padar untuk melihat pemandangan, mengunjungi Pink Beach, serta menikmati keindahan sunset di Bukit Sylvia.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!--testimoni-->
+<br>
+<div class="container-fluid">
+  <div class="container">
+    <h1 class="text-center">Apa kata mereka tentang Al-Furqon Travel</h1>
+    <br>
+    <div class="container mt-4">
+      <div class="row g-4"> <!-- Changed g-4 to g-5 for more spacing -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Testimoni_img/tes1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mahalitu Putri</h5>
+              <p class="card-text">Excellent!! Banyak terima kasih untuk Al Furqon travel. Service-nya sangat baik, terutama untuk Pemesanan jadwal, terima kasih atas pelayanannya yang maksimal..</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Testimoni_img/tes2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ahmad Sumbul</h5>
+              <p class="card-text">Alhamdulilah! sangat puas dan nyaman sekali saya mengisi liburan saya 4 hari 3 malam di Yogyakarta bersama Al Furqon Travel, sangat recomended sekali karena adanya Al Furqon Travel ini sangat membantu saya dan keluarga saya liburan.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Testimoni_img/tes3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Erick Taher</h5>
+              <p class="card-text">Perjalanan tour yang luar biasa bersama Al Furqon Travel, kenangan dan kebersamaan yang tak terlupakan. Insya Allah next trip bersama Al Furqon Travel lagi.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+
+<!-- Informasi Kontak Alfurqon Travel -->
+<footer class="bg-light py-4">
+      <div class="row">
+          <!-- Support Section -->
+          <div class="col order-1">
+              <h5 class="fw-bold">Support</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Tips untuk Booking</a></li>
+                  <li><a href="#">Bantuan Customer Service</a></li>
+                  <li><a href="#">Pusat Keamanan</a></li>
+              </ul>
+          </div>
+          <!-- contact us -->
+          <div class="col order-1">
+            <h5 class="fw-bold">Call Us!</h5>
+            <ul class="list-unstyled">
+                <li><a href="#">support@travelagent.com</a></li>
+                <li><a href="#">Telp +62-812-3456-7890</a></li>
+                <li><a href="wa.link/e4u2g3">Chat Whatsapp</a></li>
+                <li><a href="#">Lokasi Kami</a></li>
+            </ul>
+        </div>
+         <!-- Terms and Settings Section -->
+         <div class="col order-1">
+          <h5 class="fw-bold">Terms and settings</h5>
+          <ul class="list-unstyled">
+              <li><a href="#">Kebijakan Privasi & Cookie</a></li>
+              <li><a href="#">Syarat & Ketentuan</a></li>
+              <li><a href="#">Pernyataan Hak Asasi Manusia</a></li>
+          </ul>
+      </div>
+</footer>
+
+<footer class="bg-dark text-white text-center py-3 mt-auto">
+  <p class="mb-2">&copy; Alfurqon Travel Agent. All Rights Reserved.</p>
+</footer>
+
+
+
+    
+
+      <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

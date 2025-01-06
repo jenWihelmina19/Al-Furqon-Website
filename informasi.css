@@ -1,0 +1,21 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Pastikan lebar navbar mencakup seluruh layar */
+    z-index: 10; /* Memastikan navbar tetap di atas elemen lainnya */
+}
+
+h1 {
+    margin-bottom: 15px; /* Kurangi jarak bawah */
+  }
+
+  h2 {
+    margin-bottom: 20px; /* Kurangi jarak bawah */
+  }
+
+  p {
+    margin-top: 5px; /* Kurangi jarak atas */
+    margin-bottom: 5px; /* Kurangi jarak bawah */
+  }
+
